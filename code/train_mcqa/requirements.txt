@@ -1,0 +1,9 @@
+numpy
+matplotlib
+datasets
+transformers
+huggingface_hub
+torch
+tqdm
+wandb
+gpt_wrapper 

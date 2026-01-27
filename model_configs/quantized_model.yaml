@@ -1,0 +1,12 @@
+model:
+  base_params:
+    model_args: "pretrained=abdou-u/MNLP_M3_quantized_model,revision=main"
+    dtype: "none"
+    compile: false
+
+  merged_weights:
+    delta_weights: false
+    adapter_weights: false
+    base_model: null
+  generation:
+    temperature: 0.0
