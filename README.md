@@ -3,7 +3,7 @@ I left in the useful parts of the original assignment's `README.md` to help any 
 
 # CS-552 - Final Submission
 
-Welcome to the final submission for the MNLP project! For this last submission, as you can read in the [project description](./CS-552\ Project Description\ -\ Spring\ 2025.pdf), you have 4 main goals:
+Welcome to the final submission for the MNLP project! For this last submission, as you can read in the [project description](./CS-552-2025-Project-Description.pdf), you have 4 main goals:
 
 1. Finish training the four models detailed in the project description: DPO, MCQA, Quantized-MCQA, RAG-MCQA, optimizing their performance as well as you can, and submit them. (individual work, one model per member)
 2. Submit the code you used to train your models, including the training script for each model.
