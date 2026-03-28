@@ -1,5 +1,12 @@
 # Qwen tutor repository
-I left in the useful parts of the original assignment's `README.md` to help any explorers understand the repository better. Happy browsing! 
+I left in the useful parts of the original assignment's `README.md` to help any explorers understand the repository better. There were 4 of us, and I was working on the RAG pipeline. The model I trained is on [HuggingFace](https://huggingface.co/danthepol/MNLP_M3_document_encoder), and to be clear I fine-tuned the embedder but not the [generative model](https://huggingface.co/danthepol/MNLP_M3_rag_model), which was trained by [Martina](https://github.com/mgatti03). It was only uploaded on my HuggingFace account under that name for convenient grading of the project. 
+
+## Teammates
+[Martina Gatti](https://github.com/mgatti03)
+[Albert Fares](https://github.com/albertfares)
+[Ahmed Abdelmalek](https://github.com/abdou-u)
+
+Happy browsing! 
 
 # CS-552 - Final Submission
 
