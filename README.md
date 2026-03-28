@@ -1,7 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xR4NrJfU)
+# Qwen tutor repository
+I left in the useful parts of the original assignment's `README.md` to help any explorers understand the repository better. Happy browsing! 
+
 # CS-552 - Final Submission
 
-Welcome to the final submission for the MNLP project! For this last submission, as you can read in the [project description](https://docs.google.com/document/d/1BUeMoBb2zwg1YvO_OnLcqFiXQd8hxiF8ub-cM2MbX_M/edit?usp=sharing), you have 4 main goals:
+Welcome to the final submission for the MNLP project! For this last submission, as you can read in the [project description](./CS-552\ Project Description\ -\ Spring\ 2025.pdf), you have 4 main goals:
 
 1. Finish training the four models detailed in the project description: DPO, MCQA, Quantized-MCQA, RAG-MCQA, optimizing their performance as well as you can, and submit them. (individual work, one model per member)
 2. Submit the code you used to train your models, including the training script for each model.
@@ -55,33 +57,6 @@ For each of the four models, you should create a dedicated subfolder within code
     - `train_rag/ `
 
     By running these scripts we should be able to reproduce your training process and obtain models that are functionally equivalent to the ones you have developed and submitted.
-
-## Running the tests manually
-
-The autograding tests run automatically with every commit to the repo. If you want to trigger them manually, follow the instructions from the previous milestone.
-
-## Evaluation Suite
-
-For the final submission, same as M2, we provide you with an [evaluation suite](https://github.com/eric11eca/lighteval-epfl-mnlp) to benchmark each of the four models. As we covered in the compute tutorial session, details about how we evaluate your models are listed in these slides: [Evaluation Implementation Slides](https://docs.google.com/presentation/d/1SoVY4u6fDgXQ-F6TdarwaINhQ30NnE9Zb2XFavz3PGU/edit?usp=sharing).
-
-We provide you with a demo MCQA evaluation dataset and a demo DPO evaluation dataset on the Huggingface Hub:
-
-- [MCQA demo dataset](https://huggingface.co/datasets/zechen-nlp/MNLP_STEM_mcqa_demo)
-- [DPO demo dataset](https://huggingface.co/datasets/zechen-nlp/MNLP_dpo_demo)
-
-Also, for the RAG part, here is a demo Huggingface repo for the RAG documents and a collection of pretrained huggingface embedding models you can start with:
-
-- [RAG documents demo](https://huggingface.co/datasets/m-ric/huggingface_doc)
-- [RAG embedding model collection on Huggingface Hub](https://huggingface.co/models?library=sentence-transformers)
-
-## Submission Via Huggingface Hub
-
-Recall that you have to submit your model weights, RAG documents, and training data via [Huggingface Hub](https://huggingface.co/). Make sure you
-
-- Have a Huggingface account.
-- Make all your submissions public on the Huggingface Hub.
-
-Please take a look at the documents on how to [upload your dataset](https://huggingface.co/docs/datasets/en/upload_dataset) (documents which are also a dataset) and [upload your model weights](https://huggingface.co/docs/transformers/en/model_sharing#pushtohubmixin). Note that you also have to **push the tokenizers to the same model repository**.
 
 ## Validating Your Submission
 **After you push your model weights and RAG documents to the correct Huggingface Hub repositories, make sure to test your models with the official [evaluation suite](https://github.com/eric11eca/lighteval-epfl-mnlp) in a fresh and clean environment (not the same environment you used for development).**
